@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.modal');
+      var instances = M.Modal.init(elems);
+    });
+  </script>
+  <script src="js/scripts/test-user-load.js"></script>
+  <title>User List</title>
+</head>
+
+<body>
+  <a class="waves-effect waves-light btn modal-trigger" id="0" href="#modal0">button</a>
+  
+  <!-- Modal Structure -->
+  <div id="modal0" class="modal">
+    <div class="modal-content">
+      <h4>User Data:</h4>
+      <p id="id"></p>
+      <p id="name"></p>
+      <p id="age"></p>
+      <p id="gender"></p>
+      <p id="height"></p>
+      <p id="weight"></p>
+      <p id="profession"></p>
+      <p id="hobby"></p>
+      <p id="address"></p>
+
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+</body>
+
+</html>
