@@ -1,0 +1,66 @@
+[
+    {
+        "id":"001",
+        "name":"test user 1",
+        "age":"20",
+        "gender":"Male",
+        "height":"1.75",
+        "weight":"69 kg.",
+        "profession":"student",
+        "hobby":["read","write","climb","jog","coffee"],
+        "address":{
+            "street":"15th avenue",
+            "number":"44",
+            "city":"rock city",
+            "zip code":"9466"
+        }
+    },
+    {
+        "id":"002",
+        "name":"test user 2",
+        "age":"26",
+        "gender":"Male",
+        "height":"1.69",
+        "weight":"75 kg.",
+        "profession":"carpenter",
+        "hobby":["ping pong","hike","fishing"],
+        "address":{
+            "street":"second street",
+            "number":"99",
+            "city":"wind city",
+            "zip code":"46578"
+        }
+    },
+    {
+        "id":"003",
+        "name":"test user 3",
+        "age":"30",
+        "gender":"Female",
+        "height":"1.64",
+        "weight":"58 kg.",
+        "profession":"nurse",
+        "hobby":["movies","music","sing","dance"],
+        "address":{
+            "street":"third street",
+            "number":"64",
+            "city":"north city",
+            "zip code":"25986"
+        }
+    },
+    {
+        "id":"004",
+        "name":"test user 4",
+        "age":"18",
+        "gender":"Male",
+        "height":"1.80",
+        "weight":"66 kg.",
+        "profession":"banker",
+        "hobby":["climb","hike","box","play instruments","cook","slack line"],
+        "address":{
+            "street":"main street",
+            "number":"001",
+            "city":"capital city",
+            "zip code":"12345"
+        }
+    }
+]
