@@ -12,4 +12,3 @@ fetch("../js/data/data-base.json").then(function (resp) {
             document.getElementById("hobby").innerHTML = "hobby: " + data[0].hobby.join(", ")
             document.getElementById("address").innerHTML = "address: " + data[0].address.street +" #"+ data[0].address.number + ", " + data[0].address.city 
         });
-    
